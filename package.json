@@ -1,0 +1,18 @@
+{
+  "name": "hajala-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Android wrapper for Hajala web app with offline-first local assets",
+  "scripts": {
+    "sync:android": "cap sync android",
+    "open:android": "cap open android",
+    "build:web": "node -e \"console.log('The web app is bundled as web/index.html')\""
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "com.hajala.app",
+  "appName": "حجالة",
+  "webDir": "web",
+  "server": {
+    "androidScheme": "https"
+  }
+}
